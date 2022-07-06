@@ -48,7 +48,7 @@ const App = () => {
           placeholder="Enter First Name"
           {...register("firstName", { required: true })}
         />
-        {errors?.firstName && <p>First name is required</p>}
+        {errors?.firstName && <p>First name is required!</p>}
         <input
           type="text"
           placeholder="Enter Last Name"
